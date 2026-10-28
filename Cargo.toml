@@ -1,0 +1,13 @@
+[package]
+name = "no-angle-to-call"
+version = "0.1.0"
+edition = "2021"
+description = "Convert G-code G2/G3 arcs into small G1 moves"
+license = "MIT"
+
+[[bin]]
+name = "no-angle-to-call"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
